@@ -1,7 +1,9 @@
+/* backgroud color offwhite */
 body{
   background-color: rgb(214, 214, 214);
 }
 
+/* centering the image */
 .center{
   display: block;
   margin-left: auto;
@@ -11,11 +13,14 @@ body{
 }
 
 
-
+/* grey background */
 header {
   background-color: grey;
+  height:auto;
 }
 
+
+/*all bolded excecpt contact */
 h1 {
   margin: 0px 0px;
   color: white;
@@ -43,6 +48,11 @@ h2{
   text-align:center;
 }
 
+h3{
+  font-size:24px;
+
+}
+
 main{
   color:black;
   //background-color: rgb(234, 234, 234);
@@ -63,10 +73,12 @@ footer{
 
 }
 
+/* ordered list */
 ol{
 
 margin-left: 47%;
 text-align:left;
+font-size:20px;
 }
 
 p{
@@ -76,3 +88,8 @@ p{
 ul{
   font-size: 20px;
 }
+
+a:link    { color: blue;  }
+a:visited { color: purple;   }
+a:hover   { color: green; }
+a:active  { color: blueviolet;  }
